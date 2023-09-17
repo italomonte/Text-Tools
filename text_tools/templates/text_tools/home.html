@@ -85,21 +85,37 @@
 
         .main-title {
             color: var(--color-white);
-            padding: 1rem 0;
-            margin: 0 auto;
             display: flex;
             justify-content: center;
+
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: var(--spacing-gutter-short);
+            max-width: 144rem;
         }
 
         .main-content {
             display: flex;
+            flex-flow: column wrap;
             justify-content: center;
+            align-items: center;
+        }
+
+        .main-input {
+            width: 24rem;
+            height: 24rem;
         }
 
         .main-footer {
-            background: red;
+            background: var(--color-primary-dark);
             display: flex;
             justify-content: space-between;
+        }
+
+        .main-footer a:hover {
+            filter: brightness(.8);
         }
 
         .creator,
@@ -121,8 +137,9 @@
 
     <main>
         <div class="main-container-content">
-            <div class="main-content">
-                <input type="text">
+            <div class="main-content container">
+                <input class="main-input" type="text">
+                <button class="button-analyze">Analise</button>
             </div>
         </div>
     </main>
@@ -135,6 +152,7 @@
             <a href="https://www.djangoproject.com/">Powered by Django</a>
         </div>
     </footer>
+
 </body>
 
 </html>
