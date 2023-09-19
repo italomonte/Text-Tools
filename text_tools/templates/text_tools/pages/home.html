@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="static/text_tools/css/styles.css"> -->
+    <link rel="stylesheet" href=" {% static 'text_tools/css/styles.css' %}"> 
+
+    <title>Text Tools</title>
+
+    
+
+</head>
+
+<body>
+
+    {% include "text_tools/partials/header.html" %}
+
+    <main>
+        <div class="main-content-container container">
+            <div class="main-content container">
+                <h2>Insira o texto</h2>
+
+                <form action="" class="input-form">
+                    <input class="text-input form" type="text">
+                    <button class="analyze-button form" type="submit">Analise</button>
+                </form>
+
+            </div>
+        </div>
+    </main>
+
+    {% include "text_tools/partials/footer.html" %}
+
+</body>
+
+</html>
