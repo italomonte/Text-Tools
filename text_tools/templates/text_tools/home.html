@@ -60,7 +60,7 @@
         * {
             padding: 0;
             margin: 0;
-            box-sizing: 0;
+            box-sizing: border-box;
         }
 
         head {
@@ -69,7 +69,7 @@
 
         body {
             font-family: 'Mooli', sans-serif;
-            background: var(--color-gray-2);
+            background: var(--color-gray-1);
         }
 
         a {
@@ -96,16 +96,69 @@
             max-width: 144rem;
         }
 
+        .main-content-container {
+            display: flex;
+            justify-content: center;
+            min-height: 80vh;
+        }
+
         .main-content {
+            padding-top: 0;
+            padding-bottom: 0;
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            max-height: fit-content;
+            justify-content: center;
+        }
+
+        .main-content h2 {
+            padding-bottom: 1rem;
+        }
+
+        .input-form {
             display: flex;
             flex-flow: column wrap;
             justify-content: center;
             align-items: center;
+            gap: 1rem;
+            border: .1rem solid var(--color-black);
+            border-radius: .5rem;
+            background: var(--color-gray-2);
+            border-color: var(--color-black);
+            transition: all 200ms ease-in-out;
+            position: relative;
+
         }
 
-        .main-input {
+        .input-form:focus-within {
+            background-color: var(--color-white);
+            border-color: var(--color-debug-light);
+        }
+
+        .text-input {
             width: 24rem;
             height: 24rem;
+            border: none;
+            background: none;
+            outline: none;
+
+        }
+
+        .analyze-button {
+            position: absolute;
+            border: none;
+            background: none;
+            border-radius: .5rem;
+            outline: 2px solid var(--color-black);
+            min-width: 100%;
+            bottom: 0;
+            transition: all 200ms ease-in-out;
+
+        }
+
+        .analyze-button:hover {
+            background: var(--color-info-dark);
         }
 
         .main-footer {
@@ -129,17 +182,22 @@
 <body>
     <header class="main-header">
         <div class="main-title container">
-            <a href="\">
+            <a href="">
                 <h1>Text Tools</h1>
             </a>
         </div>
     </header>
 
     <main>
-        <div class="main-container-content">
+        <div class="main-content-container container">
             <div class="main-content container">
-                <input class="main-input" type="text">
-                <button class="button-analyze">Analise</button>
+                <h2>Insira o texto</h2>
+
+                <form action="" class="input-form">
+                    <input class="text-input form" type="text">
+                    <button class="analyze-button form" type="submit">Analise</button>
+                </form>
+
             </div>
         </div>
     </main>
