@@ -95,12 +95,12 @@ a {
     flex-flow: column nowrap;
     align-items: center;
     max-height: fit-content;
-    justify-content: center;
+    justify-content: top;
+
 }
 
 .main-content h2 {
     padding-bottom: 1rem;
-    font-size: 3rem;
 
 }
 
