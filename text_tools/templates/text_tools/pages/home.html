@@ -22,24 +22,60 @@
 
     {% include "text_tools/partials/header.html" %}
 
-    <div class="container">
-        <div class="wrapper ">
-            <div class="buttons-container">
-                <button>Ok</button>
-                <button>Ok</button>
-                <button>Ok</button>
-                <button>Ok</button>
-                <button>Ok</button>
-                <button>Ok</button>
+    <main>
+        <div class="container">
+            <div class="main-content">
+                <div class="input-title">
+                    <h2>Enter your text</h2>
+                </div>
+                <div class="wr-box">
+                    <div class="input-box-and-buttons">
+                        <div class="buttons-box">
+                            <button class="buttons" onclick="charactersCounter()">Number Of Caracter</button>
+                            <button class="buttons" onclick="upper()">Upper Case</button>
+                            <button class="buttons" onclick="lower()">Lower Case</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                            <button class="buttons">~</button>
+                        </div>
+
+                        <textarea class="input" id="text-input" cols="30" rows="10"></textarea>
+
+                    </div>
+
+                    <div class="results-box">
+                        <div class="n-results-box">
+                            <p class="results" id="numeric-results"></p>
+                        </div>
+
+                        <div class="t-results-box">
+                            <p class="results" id="text-results"></p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
             </div>
-            <div>
-                <input type="text">
-            </div>
+
         </div>
-    </div>
+    </main>
     
 
     {% include "text_tools/partials/footer.html" %}
+
+
+    <script src="static/text_tools/js/main.js"></script>
 
 </body>
 
