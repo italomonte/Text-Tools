@@ -144,7 +144,7 @@ a{
     display:flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
+    justify-content: top;
     gap: .5rem;
 
 }
@@ -152,17 +152,36 @@ a{
 .buttons {
     border: .2rem solid var(--color-black);
     border-radius: .5rem;
-    min-width: 16rem;
+    width: 100%;
+    height: 100%;
+    max-width: 16rem;
+    max-height: 6.8rem;
+    transition: all 300ms ease-in-out;
 }
+
+.buttons:hover {
+    transform: scale(1.05)
+}
+
+
 
 .input{
     border: .2rem solid var(--color-black);
     border-radius: .5rem;
+    background-color: var(--color-gray-0);
+    outline: none;
     width: 36rem;
     height: 36rem;
     margin: 0rem;
     padding: 1rem;
     resize: none;
+    transition: all 300ms ease-in-out;
+
+}
+
+.input:focus {
+    background-color: var(--color-white);
+    
 }
 
 .results-box{
