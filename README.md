@@ -43,4 +43,5 @@ O Text Tools é uma ferramenta simples, mas eficaz, para realizar edições ráp
 
 Divirta-se editando seus textos de maneira fácil e rápida!
 
-[Inserir links para redes sociais ou contato, se aplicável]
+![image](https://github.com/italomonte/text-tools/assets/68883489/b9838a2a-e202-4f18-a5a5-78e242a6fdf8) ![image](https://github.com/italomonte/text-tools/assets/68883489/23597bd3-70f6-429c-8d22-b9582acbd0d8)
+
