@@ -35,13 +35,10 @@ O Text Tools é um projeto que utiliza HTML5 e CSS3 para criar um editor de text
 
 ## Imagens do Projeto
 
-- [Inserir imagens aqui para ilustrar o editor em ação]
-
-## Considerações Finais
-
-O Text Tools é uma ferramenta simples, mas eficaz, para realizar edições rápidas de texto. Esperamos que seja útil em suas tarefas diárias. Fique à vontade para fornecer feedback ou sugerir melhorias para aprimorarmos ainda mais este editor.
-
-Divirta-se editando seus textos de maneira fácil e rápida!
-
 ![image](https://github.com/italomonte/text-tools/assets/68883489/b9838a2a-e202-4f18-a5a5-78e242a6fdf8) ![image](https://github.com/italomonte/text-tools/assets/68883489/23597bd3-70f6-429c-8d22-b9582acbd0d8)
+
+
+## Como Baixar o projeto
+
+
 
