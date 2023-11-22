@@ -39,6 +39,24 @@ O Text Tools é um projeto que utiliza HTML5 e CSS3 para criar um editor de text
 
 
 ## Como Baixar o projeto
+1. **Clone o repositorio:**
+   - Aqui você pode usar o Git Bash ou o GithubDesktop
+   - Pelo terminal do GitBash vá até o diretorio que você deseja clonar o repositório
+   `cd seu/diretorio`
+   - Clone o repositorio
+   `git clone https://github.com/italomonte/text-tools.git` 
 
+2. **Ambiente Virtual:**
+   - Crie um ambiente virtual python com o seguinte comando (Windows).
+   `python -m venv env`
 
+3. **Bibliotecas Utilizadas:**
+   - instale as bibliotecas que estão no arquivo "requirements.txt" usando o pip.
+   - Ative o ambiente
+   `.\env\Scripts\Activate.ps1`
+   - Instale as bibliotecas
+   `pip install -r requirements.txt`
 
+4. **Execute o projeto:**
+   - Inicie o servidor local com esse comando:
+   `python manage.py runserver`
