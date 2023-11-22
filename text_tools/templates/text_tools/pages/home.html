@@ -1,4 +1,4 @@
-<!--{% load static %}-->
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,12 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="static/text_tools/css/styles.css"> 
-    <!--<link rel="stylesheet" href=" {% static 'text_tools/css/styles.css' %}"> -->
+    <link rel="stylesheet" href=" {% static 'text_tools/css/styles.css' %}">
 
     <title>Text Tools</title>
-
-    
 
 </head>
 
@@ -70,7 +67,7 @@
     {% include "text_tools/partials/footer.html" %}
 
 
-    <script src="static/text_tools/js/main.js"></script>
+    <script src="{% static 'text_tools/js/main.js' %}"></script>
 
 </body>
 
