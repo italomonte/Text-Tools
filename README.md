@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-O Text Tools é um projeto que utiliza HTML5 e CSS3 para criar um editor de texto simples. Com foco na praticidade, o editor oferece funcionalidades básicas para manipulação de texto, permitindo que o usuário realize diversas operações de edição de forma rápida e intuitiva.
+O Text Tools é um projeto que utiliza HTML5 e CSS3 para criar um editor de texto simples. Com foco na praticidade, o editor oferece funcionalidades básicas para criação e manipulação de texto, permitindo que o usuário realize diversas operações de edição de forma rápida e intuitiva.
 
 ## Como Usar
 
