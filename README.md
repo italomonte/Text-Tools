@@ -4,7 +4,7 @@
 
 O Text Tools é um projeto feito com o objetivo de treinar Django, HTML5 e CSS3, criando um editor de texto simples. Com foco na praticidade, o editor oferece funcionalidades básicas para criação e manipulação de texto, permitindo que o usuário realize diversas operações de edição de forma rápida e intuitiva.
 
-## Tecnologias usadas
+## 💻 Tecnologias usadas
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
