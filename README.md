@@ -1,4 +1,4 @@
-# Text Tools - Editor de Texto Simples
+# Text Tools 
 
 ## Descrição do Projeto
 
